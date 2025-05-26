@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.head-main {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+  /* Navigation */
+.menu-container {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #00ccff;
+}
+
+  /* Gallery */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.photo-container {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+  /* Footer */
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
