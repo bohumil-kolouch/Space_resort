@@ -14,7 +14,7 @@
 
 .menu li {
 color: #000;
-background-color: rgba(193, 190, 185, 0.8);
+background-color: rgba(193, 185, 185, 0.8);
 display: inline-block;
 margin: 0% auto;
 position: relative;
@@ -30,7 +30,13 @@ transition-delay: 0s;
 transition-timing-function: ease-in-out;
 }
 
-.menu li:hover {
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
     color: #f00;
     background-color: rgba(100,65,0,0.3);
 }
